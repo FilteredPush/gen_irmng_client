@@ -3,7 +3,7 @@ curl -X POST \
   --output api.zip \
   -H 'content-type: application/json' \
   -d '{
-  "specURL" : "https://www.irmng.org/rest/api-docs/swagger.json",
+  "specURL" : "https://raw.githubusercontent.com/FilteredPush/gen_irmng_client/master/swagger.json",
   "lang" : "java",
   "type" : "CLIENT",
   "options" : {
