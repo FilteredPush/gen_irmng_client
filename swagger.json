@@ -52,7 +52,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -84,7 +92,12 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": { "$ref" : "#/components/schemas/Classification" }
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -113,7 +126,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/Distribution" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -166,7 +187,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "type" : "string" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -208,7 +237,14 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"text/plain": { 
+                        		"schema": {
+                           			 "type": "integer"
+								}
+							}
+						}
                     },
                     "204": {
                         "description": "Nothing found"
@@ -243,7 +279,14 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"text/plain": { 
+                        		"schema": {
+                           			 "type": "string"
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -275,7 +318,12 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": { "$ref" : "#/components/schemas/AphiaRecord" }
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -311,7 +359,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -364,7 +420,12 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": { "$ref" : "#/components/schemas/AphiaRecord" }
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -427,7 +488,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -473,7 +542,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -591,7 +668,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -643,7 +728,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -685,7 +778,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -717,7 +818,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/Vernacular" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -749,7 +858,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/Source" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -792,7 +909,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRank" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -835,7 +960,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRank" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
@@ -887,7 +1020,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
