@@ -547,7 +547,7 @@
 							"application/json": { 
                         		"schema": {
                            			 "type": "array",
-                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecordsArray" }
 								}
 							}
 						}
