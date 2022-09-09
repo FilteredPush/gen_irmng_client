@@ -612,7 +612,15 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Successful operation"
+                        "description": "Successful operation",
+						"content" : { 
+							"application/json": { 
+                        		"schema": {
+                           			 "type": "array",
+                       			     "items": { "$ref" : "#/components/schemas/AphiaRecord" }
+								}
+							}
+						}
                     },
                     "400": {
                         "description": "Bad or missing properties"
