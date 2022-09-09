@@ -1079,7 +1079,7 @@
                     },
                     "valid_IRMNG_ID": {
                         "description": "the IRMNG_ID (for the scientificname) of the currently accepted taxon. NULL if there is no currently accepted taxon.",
-                        "type": "boolean"
+                        "type": "integer"
                     },
                     "valid_name": {
                         "description": "the scientificname of the currently accepted taxon",
