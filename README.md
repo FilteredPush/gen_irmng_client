@@ -3,6 +3,8 @@ Artifacts to generate a client for the IRMNG REST service, includes a modified s
 
 Usage:
 
+	mkdir temp
+
 	sh gen.sh
 
 	cd temp

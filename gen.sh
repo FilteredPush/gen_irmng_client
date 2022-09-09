@@ -1,6 +1,6 @@
 curl -X POST \
   https://generator3.swagger.io/api/generate \
-  --output api.zip \
+  --output temp/api.zip \
   -H 'content-type: application/json' \
   -d '{
   "specURL" : "https://raw.githubusercontent.com/FilteredPush/gen_irmng_client/master/swagger.json",
