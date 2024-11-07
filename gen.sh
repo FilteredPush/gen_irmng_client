@@ -7,7 +7,7 @@ curl -X POST \
   "lang" : "java",
   "type" : "CLIENT",
   "options" : {
-  "library" : "okhttp-gson",
+  "library" : "okhttp4-gson",
   "modelPackage": "org.irmng.aphia.v1_0.model",
   "apiPackage": "org.irmng.aphia.v1_0.api",
   "invokerPackage": "org.irmng.aphia.v1_0.handler",
